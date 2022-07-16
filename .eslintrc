@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module"
+  },
+  "extends": [
+    "@nuxtjs"
+  ],
+  "globals": {
+    "_": true
+  },
+  "rules": {
+    "vue/max-attributes-per-line": "off",
+    "vue/require-prop-types": "off",
+    "no-console": "off",
+    "vue/no-v-html": "off",
+    "vue/no-unused-vars": "off",
+    "vue/html-self-closing": "off"
+  }
+}
